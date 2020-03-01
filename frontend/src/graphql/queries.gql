@@ -1,0 +1,10 @@
+query Comments($articleId: ID!) {
+  comments(articleID: $articleId) {
+    id
+    content
+    creator {
+      id
+      nickname
+    }
+  }
+}

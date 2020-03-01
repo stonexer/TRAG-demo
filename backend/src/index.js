@@ -40,7 +40,7 @@ const typeDefs = `
 
 const server = new ApolloServer({
   typeDefs,
-  mock: true,
+  mocks: true,
   introspection: true
 });
 
